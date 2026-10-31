@@ -177,9 +177,14 @@ a {
 }
 
 .hero .date {
-  font-family: "Playfair Display", serif;
-  font-size: 1.35rem;
-  letter-spacing: 0.12em;
+  font-family: "DM Sans", sans-serif;
+  font-size: clamp(1.15rem, 3vw, 1.55rem);
+  font-weight: 700;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: "lnum", "tnum";
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+  color: #14543c;
   margin: 24px 0 8px;
 }
 
